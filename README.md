@@ -17,14 +17,13 @@ After npm install, your project should look like this:
 
 ```
 my-app/
-  README.md
   node_modules/
   package.json
   public/
     index.html
     manifest.json
     images/
-      favicon.ico
+      favicon/
       projects/
   src/
     App.js
@@ -38,10 +37,16 @@ my-app/
       AnimatedWrapper.js
       Home.js
       Missed.js
+      ProjectItem.js
       Projects.js
+      project.json
       TopBar.js
+    images/
+      logo.svg
     styles/
-      index.css
+      app.css
+      Carousel.css
+      Modal.css
     utils/
       helpers.js
 ```
@@ -52,3 +57,7 @@ For the project to build, **these files must exist with exact filenames**:
 * `src/index.js` is the JavaScript entry point.
 
 You can delete or rename the other files.
+
+## Project Deployment
+
+This project was created from Facebook's [create-react-app](https://github.com/facebook/create-react-app). For more information on this project and building this project go there. 
