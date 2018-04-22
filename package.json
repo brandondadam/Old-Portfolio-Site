@@ -1,7 +1,7 @@
 {
   "name": "brandon-dadam-portfolio",
   "homepage": "https://brandondadam.github.io",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "private": true,
   "dependencies": {
     "animated": "^0.2.2",
