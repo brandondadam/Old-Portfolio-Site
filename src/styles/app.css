@@ -135,7 +135,7 @@ main {
   text-decoration: line-through;
 }
 .page.projects {
-  flex-flow: row wrap;
+  flex-flow: column;
 }
 .page.projects h1 {
   margin: 0 0 62px 0;
