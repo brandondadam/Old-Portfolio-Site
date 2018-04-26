@@ -10,8 +10,9 @@ node_modules
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 build/Release
+build
 
 # Other
-build
 .DS_Store
 .git
+fonts
