@@ -13,7 +13,7 @@ class Modal1 extends React.Component {
       <Modal {...this.props} dialogClassName="custom-modal">
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <img className="modal-img" alt="" src={this.props.image} />
+          <img className="modal-img" alt="Project Image 1" src={this.props.image} />
         </Modal.Body>
       </Modal>
     );
@@ -26,7 +26,7 @@ class Modal2 extends React.Component {
       <Modal {...this.props} dialogClassName="custom-modal">
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <img className="modal-img" alt="" src={this.props.image} />
+          <img className="modal-img" alt="Project Image 2" src={this.props.image} />
         </Modal.Body>
       </Modal>
     );
@@ -39,7 +39,7 @@ class Modal3 extends React.Component {
       <Modal {...this.props} dialogClassName="custom-modal">
         <Modal.Header closeButton></Modal.Header>
         <Modal.Body>
-          <img className="modal-img" alt="" src={this.props.image} />
+          <img className="modal-img" alt="Project Image 3" src={this.props.image} />
         </Modal.Body>
       </Modal>
     );
@@ -139,7 +139,7 @@ export default class ProjectItem extends Component {
 
         <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} interval={null}>
           <Carousel.Item>
-            <img onClick={() => this.setState({ m1Show: true })} width={900} height={500} alt="" src={image1 && image1} />
+            <img onClick={() => this.setState({ m1Show: true })} width={900} height={500} alt="Project Image 1" src={image1 && image1} />
             <Carousel.Caption>
               <h3>{subtitle1 && subtitle1}</h3>
               <p>{desc1 && desc1}</p>
@@ -147,7 +147,7 @@ export default class ProjectItem extends Component {
           </Carousel.Item>
 
           <Carousel.Item>
-            <img onClick={() => this.setState({ m2Show: true })} width={900} height={500} alt="" src={image2 && image2} />
+            <img onClick={() => this.setState({ m2Show: true })} width={900} height={500} alt="Project Image 2" src={image2 && image2} />
             <Carousel.Caption>
               <h3>{subtitle2 && subtitle2}</h3>
               <p>{desc2 && desc2}</p>
@@ -155,13 +155,13 @@ export default class ProjectItem extends Component {
           </Carousel.Item>
 
           <Carousel.Item>
-            {image3 && <img onClick={() => this.setState({ m3Show: true })} width={900} height={500} alt="" src={image3 && image3} />}
+            {image3 && <img onClick={() => this.setState({ m3Show: true })} width={900} height={500} alt="Project Image 3" src={image3 && image3} />}
             {videoLink &&
               <div className="wistia_responsive_padding">
                 <div className="wistia_responsive_wrapper">
                   <div className="wistia_embed wistia_async_kvdrb93p6n videoFoam=true">
                     <div className="wistia_swatch">
-                      <img src={videoLink && videoLink} className="video-img" alt="" onload="this.parentNode.style.opacity=1;" />
+                      <img src={videoLink && videoLink} className="video-img" alt="Project Video" onload="this.parentNode.style.opacity=1;" />
                     </div>
                   </div>
                 </div>
