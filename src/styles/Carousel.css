@@ -178,7 +178,41 @@
     margin-bottom: 20px;
   }
   .carousel .carousel-control {
-    top: calc(((100vw - 2rem) * .75) - 50px);
+    width: 40px;
+    height: 40px;
+    top: calc(((100vw - 2rem) * .75) - 40px);
+  }
+
+  .carousel .carousel-control.right {
+    left: 40px;
+  }
+
+  .carousel .carousel-control .glyphicon {
+    font-size: 14px !important;
+  }
+
+  .carousel .carousel-control.left:hover {
+    opacity: 1;
+  }
+
+  .carousel .carousel-control.right:hover {
+    opacity: 1;
+  }
+
+  .carousel .carousel-control.left:focus {
+    opacity: .54;
+  }
+
+  .carousel .carousel-control.right:focus {
+    opacity: .54;
+  }
+
+  .carousel .carousel-control.left:active {
+    opacity: 1;
+  }
+
+  .carousel .carousel-control.right:active {
+    opacity: 1;
   }
 
   .wistia_responsive_padding {
