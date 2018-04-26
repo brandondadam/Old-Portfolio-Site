@@ -11,12 +11,12 @@ const AnimatedWrapper = WrappedComponent => class AnimatedWrapper
 		};
 	}
 	componentWillAppear(cb) {
-		console.log("componentWillAppear");
+		// console.log("componentWillAppear");
 		Animated.spring(this.state.animate, { toValue: 1 }).start();
 		cb();
 	}
 	componentWillEnter(cb) {
-		console.log("componentWillEnter");
+		// console.log("componentWillEnter");
 		setTimeout(
 			() => Animated.spring(this.state.animate, { toValue: 1 }).start(),
 			250
@@ -24,7 +24,7 @@ const AnimatedWrapper = WrappedComponent => class AnimatedWrapper
 		cb();
 	}
 	componentWillLeave(cb) {
-		console.log("componentWillLeave");
+		// console.log("componentWillLeave");
 		Animated.spring(this.state.animate, { toValue: 0 }).start();
 		setTimeout(() => cb(), 175);
 	}

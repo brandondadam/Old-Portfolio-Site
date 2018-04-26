@@ -66,22 +66,6 @@
   {
     "userId": 5,
     "id": 5,
-    "title": "TADA!",
-    "body": "TADA! is a data visualization platform, that I am currently designing/redesigning as TADA’s lead UI/UX Designer. My role in the project is to completely rethink and design TADA’s product. I also help out on front-end development as well.",
-    "subtitle1": "The Power of TADA!",
-    "desc1": "Some description 1.",
-    "image1": "/images/projects/tadamobile/test1.jpg",
-    "subtitle2": "The Light & Dark Side",
-    "desc2": "Some description 2.",
-    "image2": "/images/projects/tadamobile/test2.jpg",
-    "subtitle3": "Device Accessibility",
-    "desc3": "Some description 3.",
-    "image3": "/images/projects/tadamobile/test3.jpg",
-    "projectLink": "http://tada.today/"
-  },
-  {
-    "userId": 6,
-    "id": 6,
     "title": "IL School Viz",
     "body": "This is a geographical data visualization of Illinois public school data for the year 2016. I designed and developed the visualization tool, while working with a data scientist to collect and organize the data.",
     "subtitle1": "Curiosity",
@@ -96,8 +80,8 @@
     "projectLink": "https://thecuriousoutlier.github.io/"
   },
   {
-    "userId": 7,
-    "id": 7,
+    "userId": 6,
+    "id": 6,
     "title": "MOCsat",
     "body": "MOCsat is a mobile app that I designed and worked with a team to develop back in college. It is a mission operations control app for NASA and NASA funded satellite mission operation control (moc) stations at Universities across the US. I played a cross functional lead role as a front-end web developer, and UI/UX designer for this app.",
     "subtitle1": "Project Goal",
@@ -112,8 +96,8 @@
     "projectLink": ""
   },
   {
-    "userId": 8,
-    "id": 8,
+    "userId": 7,
+    "id": 7,
     "title": "Ignite Survey",
     "body": "This was a project that I worked on while interning at a startup called Northerly back in college (unfortunately Northerly is no longer in business 😥). The team and I were tasked with creating a fun and engaging, but quick and easy, survey for an annual art and tech festival in Peoria IL. My role on the project was overall design and front-end development. The project was built with vanilla Javascript and HTML, SCSS, Processing, and Firebase which was being watched by a Node server that we used for the collaborative data viz part of the project.",
     "subtitle1": "Intuitive UI",

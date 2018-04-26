@@ -1,14 +1,5 @@
-@font-face {
-  font-family: 'Cerebri Sans';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Cerebri Sans'), local('Cerebri Sans'),
-       url('../fonts/Cerebri Sans.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/Cerebri Sans.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/Cerebri Sans.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/Cerebri Sans.eot') format('embedded-opentype'), /* IE6-IE8 */
+@font-face {font-family: 'CerebriSans-Regular';src: url('../fonts/367061_0_0.eot');src: url('../fonts/367061_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/367061_0_0.woff2') format('woff2'),url('../fonts/367061_0_0.woff') format('woff'),url('../fonts/367061_0_0.ttf') format('truetype');}
 
-}
 
 html {
   box-sizing: border-box;
@@ -28,7 +19,7 @@ body,
   max-height: 100vh;
   overflow: hidden;
   color: #000;
-  font-family: "Cerebri Sans", Avenir, Helvetica, Segoe UI, sans-serif;
+  font-family: "CerebriSans-Regular", Avenir, Helvetica, Segoe UI, sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #fff;
 
