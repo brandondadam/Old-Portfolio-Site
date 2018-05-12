@@ -1,5 +1,5 @@
 {
-  "short_name": "Brandon",
+  "short_name": "Brandon D'Adam",
   "name": "Brandon D'Adam - UI/UX Designer & Web Developer",
   "description": "Portfolio website for Brandon D'Adam.",
   "lang": "en-US",
@@ -30,7 +30,7 @@
       "type": "image/png"
     }
   ],
-  "start_url": "/",
+  "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
