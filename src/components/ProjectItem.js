@@ -98,7 +98,8 @@ export default class ProjectItem extends Component {
     const {
       project: {
         title,
-        body,
+        body1,
+        body2,
         image1,
         image2,
         image3,
@@ -135,7 +136,8 @@ export default class ProjectItem extends Component {
           <NavLink to="/projects" className="goBack">&#x2190;</NavLink>
         </Animated.span>
         <h1>{title && title}</h1>
-        <p>{body && body}</p>
+        <p>{body1 && body1}</p>
+        <p>{body2 && body2}</p>
 
         <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} interval={null}>
           <Carousel.Item>
