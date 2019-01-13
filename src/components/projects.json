@@ -60,7 +60,7 @@
     "desc2": "A resort supervisor mans each vr arcade, and when a guest wants to use a machine they simply approach the resort supervisor, who then enters a passcode and time that the guest pays for. The guest can then select games by swiping on the iPad. When they pick a game, they can put on the vr headset and start playing. They can pause at any moment and select a new game as well. The arcade is completely self-service though. The resort simply supervises the arcades because the vr stations are very expensive.",
     "image2": "/images/projects/vrarcade/experience.jpg",
     "subtitle3": "Design Decisions",
-    "desc3": "The design accommodates for an abundance of games, so new ones can be easily added in the future and features large touch areas, so user can easily pause, switch, and resume playing with ease.",
+    "desc3": "The design accommodates for an abundance of games, so new ones can be easily added in the future and features large touch areas, so players can easily pause, switch, and resume playing with ease.",
     "image3": "/images/projects/vrarcade/games.jpg",
     "projectLink": "https://www.theabbeyresort.com/immersion.aspx"
   },
@@ -85,7 +85,7 @@
     "id": 6,
     "title": "MOCsat",
     "body1": "MOCsat is a mobile app that a team and I worked on as a senior project in college. It is a mission operations control (MOC) app for NASA and NASA funded satellite missions conducted at Universities across the US. I played a cross functional lead role as a front-end developer, and ui/ux designer for this app.",
-    "body2": "Most of my time was spent on UX research and its implementation into the ui. I led the research team, and worked closely with the development team to implement the ui, features, and fix bugs in the code. I mainly focused on front-end development when it came to my developer responsibilities.",
+    "body2": "Most of my time was spent on ux research and its implementation into the ui. I led the research team, and worked closely with the development team to implement the ui, features, and fix bugs in the code. I mainly focused on front-end development when it came to my developer responsibilities.",
     "subtitle1": "Project Goal",
     "desc1": "The problem our team was trying to solve was that scientists, professors, students, and engineers have to constantly be supervising mission control rooms at universities that conduct satellite missions. In short, universities that are conducting satellite missions, and have control stations on campus, have only one way of getting data about their mission. They must be at the control station, in person, looking at the satellite connect computers. The goal of the MOCsat was to give the those responsible for these control stations, the ability to take their satellite feeds on the go, with real-time data and push notification wrapped into a helpful a mobile app.",
     "image1": "/images/projects/mocsat/dashboard.jpg",
