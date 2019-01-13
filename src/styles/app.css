@@ -61,7 +61,8 @@ main {
   padding: 0 3rem;
   z-index: 999;
   background-color: #fff;
-  box-shadow: 0 5px 10px 10px #fff;
+  box-shadow: 0 5px 20px 10px #fff;
+  opacity: .92;
 }
 .top-bar img {
   width: 13px;
@@ -142,7 +143,7 @@ main {
   flex-flow: column;
 }
 .page.projects h1 {
-  margin: 0 0 26rem 0;
+  margin: 0 0 25rem 0;
 }
 .page.projects ul {
   flex-flow: row wrap;
