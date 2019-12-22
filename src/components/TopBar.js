@@ -8,8 +8,8 @@ export default class TopBar extends Component {
 			<div className="top-bar">
 				<img src={logo} alt="Brandon D'Adam's Logo"/>
 				<nav>
-          <NavLink exact to="/">Hi</NavLink>
-          <NavLink to="/projects">Projects</NavLink>
+          			<NavLink exact to="/">Hi</NavLink>
+          			<NavLink to="/projects">Projects</NavLink>
 				</nav>
 			</div>
 		)

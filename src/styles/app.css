@@ -22,7 +22,10 @@ body,
   font-family: "CerebriSans-Regular", Avenir, Helvetica, Segoe UI, sans-serif;
   -webkit-font-smoothing: antialiased;
   background: #fff;
+}
 
+.home p {
+  max-width: 75ch;
 }
 
 .wrapper {
