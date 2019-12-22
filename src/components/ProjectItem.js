@@ -69,7 +69,7 @@ export default class ProjectItem extends Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     if (!this.props.projects.length && nextProps.projects.length) {
       this._renderProject(nextProps.projects);
     }

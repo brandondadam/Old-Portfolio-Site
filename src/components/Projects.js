@@ -14,7 +14,7 @@ export default class Projects extends Component {
 	componentDidMount() {
 		this._renderProjects(this.props.projects);
 	}
-	componentWillReceiveProps(nextProps) {
+	UNSAFE_componentWillReceiveProps(nextProps) {
 		if (!this.props.projects.length && nextProps.projects.length) {
 			this._renderProjects(nextProps.projects);
 		}
