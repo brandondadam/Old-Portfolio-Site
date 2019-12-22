@@ -64,15 +64,6 @@ main {
   padding: 0 3rem;
   z-index: 999;
   background-color: #fff;
-  box-shadow: 0 5px 20px 10px #fff;
-  opacity: .92;
-}
-.scroll {
-
-}
-
-.no-scroll {
-  
 }
 .top-bar img {
   width: 13px;

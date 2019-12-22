@@ -83,7 +83,7 @@
   {
     "userId": 6,
     "id": 6,
-    "title": "MOCsat",
+    "title": "NASA - MOCsat",
     "body1": "MOCsat is a mobile app that a team and I worked on as a senior project in college. It is a mission operations control (MOC) app for NASA and NASA funded satellite missions conducted at Universities across the US. I played a cross functional lead role as a front-end developer, and ui/ux designer for this app.",
     "body2": "Most of my time was spent on ux research and its implementation into the ui. I led the research team, and worked closely with the development team to implement the ui, features, and fix bugs in the code. I mainly focused on front-end development when it came to my developer responsibilities.",
     "subtitle1": "Project Goal",
@@ -114,5 +114,22 @@
     "image3": "",
     "videoLink": "https://fast.wistia.com/embed/medias/kvdrb93p6n/swatch",
     "projectLink": ""
+  },
+    {
+    "userId": 8,
+    "id": 8,
+    "title": "#codevember",
+    "body1": "Codevember is a month long challenge my friends and I created where developers of all skill levels can participate in hopes of building software professional communities in areas where there might not be one. The goal is to write code, and work on one project related to the annual theme over the course of November. Participants can join the slack community to share updates on their progress, help each other, and participate in the growing community overall. At the end of the month, participants submit their code to a github repo to share their work, and everyone hops in a online meetup where we talk about and share the work.",
+    "body2": "I branded, designed, and built the website for the event. I continue to help plan for the coming years as well.",
+    "subtitle1": "",
+    "desc1": "",
+    "image1": "/images/projects/codevember/mobile.jpg",
+    "subtitle2": "",
+    "desc2": "",
+    "image2": "/images/projects/codevember/tablet.jpg",
+    "subtitle3": "",
+    "desc3": "",
+    "image3": "/images/projects/codevember/laptop.jpg",
+    "projectLink": "https://codevember.co/"
   }
 ]
