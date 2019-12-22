@@ -177,7 +177,7 @@ export default class ProjectItem extends Component {
 
       </Carousel>
 
-      {projectLink && <a className="project-link" href={projectLink && projectLink} target="_blank">project link</a>}
+      {projectLink && <a className="project-link" href={projectLink && projectLink} target="_blank" rel="noopener noreferrer">project link</a>}
 
       <div className="project-btm-spacing"><span></span></div>
 
